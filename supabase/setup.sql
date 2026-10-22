@@ -27,4 +27,4 @@ revoke all on function public.is_admin() from public, anon;
 grant execute on function public.is_admin() to authenticated;
 
 -- ADD YOURSELF: change the address below to the email you will sign in with, then run it.
-insert into public.admins (email) values ('you@example.com') on conflict do nothing;
+insert into public.admins (email) values ('karia.shivammit@gmail.com') on conflict do nothing;
