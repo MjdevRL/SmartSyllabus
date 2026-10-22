@@ -1,0 +1,33 @@
+{
+  "university": "TUM Asia",
+  "course": "Electronics and Data Engineering",
+  "country": "Germany",
+  "location": "SIT @ Punggol Campus, 1 Punggol Coast Road, Singapore 828608",
+  "website": "https://www.singaporetech.edu.sg/",
+  "course_page": "",
+  "ib_score_range": "39-45",
+  "extra_exams": "SAT , IELTS, PERSONAL STATEMENT",
+  "recognition_score": 94,
+  "roi_score": 82,
+  "yearly_cost": "50k–60k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$55k–100k",
+  "other_notes": "Offers the reputation of Germany's Technical University of Munich while studying in Singapore. Strong German engineering curriculum, excellent industry links, and international career opportunities.",
+  "personal_rank": "3rd",
+  "personal_rank_number": 3,
+  "rank_justification": "Combines the internationally recognised TUM degree with Singapore's thriving technology ecosystem, offering an excellent blend of German engineering, global recognition, and industry opportunities.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "Country says Germany but the location is in Singapore (SIT Punggol campus). Record where the degree is awarded and where you'd study separately.",
+    "Website is SIT's home page, not TUM Asia's.",
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 11
+}

@@ -1,0 +1,32 @@
+{
+  "university": "Hochschule München University of Applied Sciences",
+  "course": "Engineering Physics and Data Science",
+  "country": "Germany",
+  "location": "Lothstraße Campus, Munich, Bavaria, Germany",
+  "website": "https://hm.edu/en/course_offerings/courses_in_english/index.en.html",
+  "course_page": "",
+  "ib_score_range": "36-42",
+  "extra_exams": "SAT , IELTS, PERSONAL STATEMENT",
+  "recognition_score": 83,
+  "roi_score": 85,
+  "yearly_cost": "18k–21k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$50k–85k",
+  "other_notes": "One of Germany's top Universities of Applied Sciences. Highly practical education, excellent connections with companies like BMW and Siemens, and outstanding value for money.",
+  "personal_rank": "15th",
+  "personal_rank_number": 15,
+  "rank_justification": "Excellent value for money and outstanding industry links in Munich. Ranked lower because my priorities place greater emphasis on international prestige and research-intensive universities.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "German admission usually depends on your IB subject combination and grades. Check whether the SAT is required at all, and treat the IB score range as an estimate.",
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 12
+}

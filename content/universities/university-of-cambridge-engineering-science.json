@@ -1,0 +1,31 @@
+{
+  "university": "University of Cambridge",
+  "course": "Engineering Science",
+  "country": "UK",
+  "location": "Cambridge, England, United Kingdom",
+  "website": "https://www.cam.ac.uk/",
+  "course_page": "",
+  "ib_score_range": "41-45",
+  "extra_exams": "ESAT , IELTS, INTERVIEW,PERSONAL STATEMENT",
+  "recognition_score": 100,
+  "roi_score": 82,
+  "yearly_cost": "80k–90k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$65k–110k",
+  "other_notes": "World-leading research university with exceptional global prestige. Outstanding engineering facilities, extensive industry links, strong alumni network, and excellent opportunities for research and entrepreneurship.",
+  "personal_rank": "4th",
+  "personal_rank_number": 4,
+  "rank_justification": "Ranked highly due to its unmatched global prestige, exceptional research, and outstanding engineering reputation. Placed below my top three because of its very high cost and my preference for more industry-oriented programmes.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 2
+}

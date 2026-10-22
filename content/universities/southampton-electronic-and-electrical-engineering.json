@@ -1,0 +1,33 @@
+{
+  "university": "Southampton",
+  "course": "Electronic & Electrical  engineering",
+  "country": "UK",
+  "location": "Oxford Road, Manchester, England, United Kingdom",
+  "website": "www.soton.ac.uk",
+  "course_page": "",
+  "ib_score_range": "35-40",
+  "extra_exams": "IELTS, INTERVIEW,PERSONAL STATEMENT",
+  "recognition_score": 86,
+  "roi_score": 77,
+  "yearly_cost": "65k–67k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$50k–85k",
+  "other_notes": "Renowned for engineering innovation and research. Strong partnerships with industry, excellent employability, affordable living compared to London, and a vibrant student city.",
+  "personal_rank": "13th",
+  "personal_rank_number": 13,
+  "rank_justification": "A respected engineering university with good employability and affordability, but it offers less international prestige and research strength than my higher-ranked choices.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "Location says 'Oxford Road, Manchester', which looks like the University of Manchester's address. Southampton's main campus is in Southampton.",
+    "Check whether this course interviews applicants.",
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 5
+}

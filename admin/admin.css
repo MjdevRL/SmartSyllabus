@@ -1,0 +1,18 @@
+/* Dashboard theme: flat, dark, Notion-like, matching the website.
+   Decap CMS has no theme setting and its class names change between versions, so instead of
+   targeting them we dark-invert the whole app (#nc-root) and then fix what must not be inverted:
+   the live preview (already dark), images and video. The hue-rotate keeps blues blue and greens green.
+   shortcut: filter-based, so colours are close to, not exactly, the website palette; restyle per element if you need exact. */
+:root{--bg:#191919;--ink:#ebebeb;--ui:'DM Sans',system-ui,sans-serif}
+html,body{background:var(--bg)!important;font-family:var(--ui)}
+/* contrast(.8) lifts pure black to the website's #191919 */
+#nc-root{min-height:100vh;filter:invert(1) hue-rotate(180deg) contrast(.8)}
+#nc-root *{font-family:var(--ui)}
+/* undo the inversion for content that is already dark or must keep its real colours */
+#nc-root iframe,#nc-root img,#nc-root video,#nc-root canvas{filter:contrast(1.25) hue-rotate(180deg) invert(1)}
+/* flat, rounded, Notion-like controls */
+#nc-root button,#nc-root input,#nc-root textarea,#nc-root select{border-radius:8px}
+#nc-root button{box-shadow:none!important;text-shadow:none!important}
+#nc-root *{scrollbar-width:thin}
+.gate{max-width:460px;margin:18vh auto 0;padding:0 20px;color:var(--ink)}.gate h1{font-size:32px;letter-spacing:-.03em}.gate p{color:#cfcfcf;line-height:1.6}
+.exit{position:fixed;left:14px;bottom:14px;z-index:100}.gate[hidden],.exit[hidden]{display:none}

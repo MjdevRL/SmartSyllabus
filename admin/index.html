@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>if (!location.pathname.endsWith('/')) location.replace(location.pathname + '/' + location.search + location.hash); // the editor's files load from this folder</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Smart Syllabus · Admin mode</title>
+  <link rel="stylesheet" href="../assets/fonts/fonts.css">
+  <link rel="stylesheet" href="../assets/reference.css">
+  <link rel="stylesheet" href="admin.css">
+  <script type="importmap">{ "imports": { "marked": "./lib/marked.esm.js" } }</script>
+  <script>window.CMS_MANUAL_INIT = true;</script>
+</head>
+<body>
+  <main class="gate" id="gate" hidden><h1 id="gate-title"></h1><p id="gate-text"></p><a class="btn primary" href="../">Back to the website</a></main>
+  <a class="btn sm exit" id="exit" href="../" hidden>← Exit admin mode</a>
+  <script type="module">
+    // Admin mode opens only for an admin email (see supabase/setup.sql). Saving still needs GitHub
+    // write access, so this check protects the page; GitHub protects the content.
+    import { getClient, checkAdmin, cfg } from '../assets/auth.js';
+
+    const say = (title, text) => {
+      document.getElementById('gate-title').textContent = title;
+      document.getElementById('gate-text').textContent = text;
+      document.getElementById('gate').hidden = false;
+    };
+    function openEditor() {
+      document.getElementById('exit').hidden = false;
+      const s = document.createElement('script');
+      s.src = 'decap-cms.js';
+      s.onload = () => import('./preview.js');
+      s.onerror = () => say('The editor did not load', 'Reload the page. If it keeps failing, the site may still be publishing.');
+      document.body.append(s);
+    }
+
+    try {
+      if (!cfg.url || cfg.local) openEditor(); // sign-in not configured, or local preview
+      else {
+        const sb = await getClient();
+        const { data } = await sb.auth.getSession();
+        if (!data.session) say('Sign in first', 'Sign in on the website with your admin email, then press "Admin mode" at the top right.');
+        else if (!(await checkAdmin(sb))) say('Not an admin account', `${data.session.user.email || 'This account'} is not on the admin list.`);
+        else openEditor();
+      }
+    } catch { say('Could not check your sign-in', 'Check your internet connection and reload.'); }
+  </script>
+</body>
+</html>

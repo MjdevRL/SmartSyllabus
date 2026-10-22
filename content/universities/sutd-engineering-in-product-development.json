@@ -1,0 +1,32 @@
+{
+  "university": "SUTD",
+  "course": "Engineering in Product Development",
+  "country": "Singapore",
+  "location": "8 Somapah Rd, Singapore 487372",
+  "website": "https://www.sutd.edu.sg/",
+  "course_page": "",
+  "ib_score_range": "37-43",
+  "extra_exams": "IELTS, PERSONAL STATEMENT",
+  "recognition_score": 90,
+  "roi_score": 88,
+  "yearly_cost": "25k–35k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$55k–95k",
+  "other_notes": "Innovation-focused university with project-based learning, modern maker spaces, strong design culture, and close collaboration with industry and startups.",
+  "personal_rank": "11th",
+  "personal_rank_number": 11,
+  "rank_justification": "Appeals to me because of its innovative, project-based learning and strong product development focus. Ranked lower due to its younger reputation and smaller global recognition.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "Check whether IELTS is required for IB applicants. It may depend on your IB English results.",
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 9
+}

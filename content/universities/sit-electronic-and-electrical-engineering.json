@@ -1,0 +1,32 @@
+{
+  "university": "SIT",
+  "course": "Electronic & Electrical  engineering",
+  "country": "Singapore",
+  "location": "1 Punggol Coast Road, Singapore 828608",
+  "website": "https://www.singaporetech.edu.sg/",
+  "course_page": "",
+  "ib_score_range": "35-40",
+  "extra_exams": "IELTS, PERSONAL STATEMENT",
+  "recognition_score": 86,
+  "roi_score": 80,
+  "yearly_cost": "25k–35k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$40k–70k",
+  "other_notes": "Industry-oriented university with practical learning, mandatory work-integrated education, strong employer partnerships, and excellent graduate employability in Singapore.",
+  "personal_rank": "12th",
+  "personal_rank_number": 12,
+  "rank_justification": "Strong practical education with excellent industry exposure and employability. Ranked lower because I prioritise universities with greater research intensity and international recognition.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "Check whether IELTS is required for IB applicants. It may depend on your IB English results.",
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 10
+}

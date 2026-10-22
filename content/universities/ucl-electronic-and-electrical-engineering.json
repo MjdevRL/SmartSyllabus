@@ -1,0 +1,32 @@
+{
+  "university": "UCL",
+  "course": "Electronic & Electrical  engineering",
+  "country": "UK",
+  "location": "Gower Street, London, England, United Kingdom",
+  "website": "https://www.ucl.ac.uk/",
+  "course_page": "",
+  "ib_score_range": "37-42",
+  "extra_exams": "ESAT , IELTS, INTERVIEW,PERSONAL STATEMENT",
+  "recognition_score": 94,
+  "roi_score": 78,
+  "yearly_cost": "75k–82k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$55k–95k",
+  "other_notes": "Highly research-intensive with excellent engineering facilities and global recognition. Large international community, strong industry collaborations, and flexible academic opportunities.",
+  "personal_rank": "9th",
+  "personal_rank_number": 9,
+  "rank_justification": "Strong international reputation and research opportunities, but I personally prefer universities with a greater engineering focus and better overall value for money.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "Check whether this course requires the ESAT and an interview.",
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 4
+}

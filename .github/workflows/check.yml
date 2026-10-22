@@ -1,0 +1,46 @@
+# Runs on every save. Vercel builds and publishes the website; this only does the housekeeping Vercel can't:
+# it checks the pages (with a plain-English summary on failure) and records page addresses so old links keep redirecting.
+name: Check pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # to save the page-address history used for redirects
+
+concurrency:
+  group: check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Check pages and record addresses
+        run: npm run check
+
+      - name: Save page-address history (for redirects)
+        run: |
+          if [ -n "$(git status --porcelain content/system/url-history.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add content/system/url-history.json
+            git commit -m "Record page addresses [skip ci]"
+            for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+          fi

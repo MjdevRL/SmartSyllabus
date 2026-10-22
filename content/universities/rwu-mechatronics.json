@@ -1,0 +1,33 @@
+{
+  "university": "RWU",
+  "course": "Mechatronics",
+  "country": "Germany",
+  "location": "Doggenriedstraße 70, Weingarten, Baden-Württemberg, Germany",
+  "website": "https://www.rwu.de/en/english-taught",
+  "course_page": "",
+  "ib_score_range": "34-38",
+  "extra_exams": "SAT , IELTS, PERSONAL STATEMENT",
+  "recognition_score": 75,
+  "roi_score": 79,
+  "yearly_cost": "18k–21k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$45k–75k",
+  "other_notes": "Practical engineering-focused university with strong laboratory training, close industry partnerships, and excellent preparation for careers in German manufacturing and automation.",
+  "personal_rank": "16rth",
+  "personal_rank_number": 16,
+  "rank_justification": "Offers practical engineering education with strong industry connections and affordability. Ranked last because it is more regionally recognised and less aligned with my preference for globally recognised institutions.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "Rank is written as '16rth' (read here as 16th).",
+    "German admission usually depends on your IB subject combination and grades. Check whether the SAT is required at all, and treat the IB score range as an estimate.",
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 14
+}

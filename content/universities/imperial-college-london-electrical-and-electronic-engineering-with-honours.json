@@ -1,0 +1,31 @@
+{
+  "university": "Imperial College London",
+  "course": "Electrical & Electronic Engineering with honours",
+  "country": "UK",
+  "location": "South Kensington, London, England, United Kingdom",
+  "website": "https://www.imperial.ac.uk/",
+  "course_page": "",
+  "ib_score_range": "38-43",
+  "extra_exams": "ESAT , IELTS, INTERVIEW,PERSONAL STATEMENT",
+  "recognition_score": 96,
+  "roi_score": 84,
+  "yearly_cost": "72k–80k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$60k–105k",
+  "other_notes": "One of the world's best STEM universities. Excellent industry partnerships, cutting-edge laboratories, strong graduate employability, and close links with London's technology and finance sectors.",
+  "personal_rank": "6th",
+  "personal_rank_number": 6,
+  "rank_justification": "One of the world's strongest engineering universities with excellent graduate outcomes and industry connections. Ranked lower due to London's high cost of living and my preference for Singapore and the US.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 3
+}

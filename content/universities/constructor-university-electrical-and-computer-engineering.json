@@ -1,0 +1,32 @@
+{
+  "university": "Constructor University",
+  "course": "Electrical and Computer Engineering",
+  "country": "Germany",
+  "location": "Campus Ring 1, Bremen 28759, Germany",
+  "website": "https://constructor.university/",
+  "course_page": "",
+  "ib_score_range": "35-40",
+  "extra_exams": "SAT , IELTS, PERSONAL STATEMENT",
+  "recognition_score": 78,
+  "roi_score": 74,
+  "yearly_cost": "26k–32k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$45k–80k",
+  "other_notes": "International private university with small class sizes, personalised teaching, modern facilities, and a diverse student community from over 100 countries.",
+  "personal_rank": "14th",
+  "personal_rank_number": 14,
+  "rank_justification": "Attractive for its personalised learning environment and international student community, but lower global recognition and research output place it below my preferred universities.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "German admission usually depends on your IB subject combination and grades. Check whether the SAT is required at all, and treat the IB score range as an estimate.",
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 13
+}

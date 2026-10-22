@@ -1,0 +1,37 @@
+{
+  "note": "Imported from rows 24-30 of your spreadsheet. Personal targets, not entry requirements.",
+  "targets": [
+    {
+      "exam": "ESAT math 1 , 2 and Physics",
+      "upper_target": 8,
+      "lower_target": 7,
+      "review_flag": "Check these targets against the ESAT's official score scale."
+    },
+    {
+      "exam": "SAT",
+      "upper_target": 1580,
+      "lower_target": 1400
+    },
+    {
+      "exam": "IELTS (maybe) we have to check if all waive  off",
+      "upper_target": 8.7,
+      "lower_target": 6,
+      "review_flag": "IELTS scores go up in steps of 0.5 to a maximum of 9, so 8.7 isn't a possible score."
+    },
+    {
+      "exam": "If not IELTS I will give  TOEFL iBT",
+      "upper_target": 110,
+      "lower_target": 90
+    },
+    {
+      "exam": "Interviews",
+      "upper_target": null,
+      "lower_target": null
+    },
+    {
+      "exam": "Personal Statements",
+      "upper_target": null,
+      "lower_target": null
+    }
+  ]
+}

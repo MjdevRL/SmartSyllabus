@@ -1,0 +1,32 @@
+{
+  "university": "NTU",
+  "course": "Electrical & Electronic Engineering with Second Major in Data Analytics",
+  "country": "Singapore",
+  "location": "50 Nanyang Ave, Singapore 639798",
+  "website": "https://www.ntu.edu.sg/",
+  "course_page": "",
+  "ib_score_range": "38-45",
+  "extra_exams": "IELTS, PERSONAL STATEMENT",
+  "recognition_score": 95,
+  "roi_score": 92,
+  "yearly_cost": "25k–35k",
+  "cost_currency": "",
+  "cost_includes": "",
+  "first_salary": "$50k–90k",
+  "other_notes": "Globally recognised for engineering and innovation. Excellent research funding, modern campus, strong industry collaborations, and one of Asia's best engineering schools.",
+  "personal_rank": "10th",
+  "personal_rank_number": 10,
+  "rank_justification": "An excellent engineering university with outstanding facilities and research. Personally ranked lower because I prefer NUS's reputation and TUM Asia's unique German-Singapore engineering combination.",
+  "fact_status": "unverified",
+  "source_url": "",
+  "last_verified": "",
+  "review_flags": [
+    "Check whether IELTS is required for IB applicants. It may depend on your IB English results.",
+    "Costs: the currency isn't stated, and it isn't recorded whether the figure is tuition only or tuition plus living costs.",
+    "The website column links to the university home page. Add the official course page.",
+    "Figures come from personal research and haven't been checked against official sources yet."
+  ],
+  "status": "published",
+  "notices": [],
+  "spreadsheet_row": 8
+}

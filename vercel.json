@@ -1,0 +1,7 @@
+{
+  "framework": null,
+  "installCommand": "npm ci",
+  "buildCommand": "npm test && npm run build",
+  "outputDirectory": "dist",
+  "crons": [{ "path": "/api/keepalive", "schedule": "17 6 * * 1,4" }]
+}
